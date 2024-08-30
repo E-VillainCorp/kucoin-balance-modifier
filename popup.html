@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KuCoin Balance Modifier</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Modify KuCoin Values</h3>
+  <label for="totalAssets">USDT Total Assets:</label>
+  <input type="text" id="totalAssets" placeholder="Enter new value">
+
+  <h3>Positions</h3>
+  <label for="margin">Margin (USDT):</label>
+  <input type="text" id="margin" placeholder="Enter new margin">
+
+  <button id="applyChanges">Apply</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
